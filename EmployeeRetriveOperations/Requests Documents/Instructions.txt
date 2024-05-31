@@ -1,0 +1,57 @@
+### Create a Database Schema
+**Database Name:** `employeeretriveoperations`
+
+### API Endpoints and Tasks
+
+#### Get Employee by ID
+**Task:** Create an API that retrieves an employee's details using their ID.  
+**Endpoint:** `GET /employees/{id}`  
+**Functionality:** Should fetch and return the employee's details based on the provided ID.
+
+
+#### Get Employees by Gender
+**Task:** Create an API that retrieves a list of employees based on their gender.  
+**Endpoint:** `GET /employees/gender/{gender}`  
+**Functionality:** Should fetch and return a list of employees filtered by the specified gender (M or F).
+
+
+#### Get Employees with Salary Less Than a Specified Amount
+**Task:** Create an API that retrieves a list of employees whose salary is less than a specified amount.  
+**Endpoint:** `GET /employees/salaryLessThan/{salary}`  
+**Functionality:** Should fetch and return a list of employees whose salary is less than the given amount (e.g., 70,000).
+
+
+#### Update Employee Details
+**Task:** Create an API to update the details of an existing employee.  
+**Endpoint:** `PUT /employees/{id}`  
+**Functionality:** Should update the employee's details based on the provided ID and new data.
+
+
+#### Delete Employee
+**Task:** Create an API to delete an employee by their ID.  
+**Endpoint:** `DELETE /employees/{id}`  
+**Functionality:** Should delete the employee record based on the provided ID.
+
+
+#### Get All Employees
+**Task:** Create an API that retrieves a list of all employees.  
+**Endpoint:** `GET /employees`  
+**Functionality:** Should fetch and return a list of all employees in the system.
+
+
+#### Add New Employee
+**Task:** Create an API to add a new employee.  
+**Endpoint:** `POST /employees`  
+**Functionality:** Should accept employee data and add a new employee to the system.
+
+
+#### Get Employees by Department
+**Task:** Create an API that retrieves a list of employees based on their department.  
+**Endpoint:** `GET /employees/department/{department}`  
+**Functionality:** Should fetch and return a list of employees filtered by the specified department.
+
+
+#### Get Employees by Name
+**Task:** Create an API that retrieves a list of employees based on their name.  
+**Endpoint:** `GET /employees/name/{name}`  
+**Functionality:** Should fetch and return a list of employees whose names match the given name.

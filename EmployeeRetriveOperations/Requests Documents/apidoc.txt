@@ -1,0 +1,78 @@
+  PostRequest:- http://localhost:9091/postData
+  
+  RequestBody:- 
+  
+  [
+  {
+    "id": 1,
+    "name": "John Doe",
+    "salary": 75000.00,
+    "gender": "M",
+    "department": "Engineering"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "salary": 80000.00,
+    "gender": "F",
+    "department": "Marketing"
+  },
+  {
+    "id": 3,
+    "name": "Samuel Johnson",
+    "salary": 72000.00,
+    "gender": "M",
+    "department": "Sales"
+  },
+  {
+    "id": 4,
+    "name": "Alice Brown",
+    "salary": 85000.00,
+    "gender": "F",
+    "department": "Human Resources"
+  },
+  {
+    "id": 5,
+    "name": "Robert Davis",
+    "salary": 70000.00,
+    "gender": "M",
+    "department": "Engineering"
+  },
+  {
+    "id": 6,
+    "name": "Linda Martinez",
+    "salary": 78000.00,
+    "gender": "F",
+    "department": "Finance"
+  },
+  {
+    "id": 7,
+    "name": "Michael Garcia",
+    "salary": 69000.00,
+    "gender": "M",
+    "department": "Sales"
+  },
+  {
+    "id": 8,
+    "name": "Patricia Wilson",
+    "salary": 82000.00,
+    "gender": "F",
+    "department": "Marketing"
+  },
+  {
+    "id": 9,
+    "name": "James Rodriguez",
+    "salary": 76000.00,
+    "gender": "M",
+    "department": "IT"
+  },
+  {
+    "id": 10,
+    "name": "Jennifer Lewis",
+    "salary": 88000.00,
+    "gender": "F",
+    "department": "Engineering"
+  }
+]
+
+  			
